@@ -1,0 +1,172 @@
+*{
+   margin:0px;
+   padding: 0px;
+   border: 0px; 
+}
+
+.container{
+    width: 1020px;
+    height: 1500px;
+    margin: auto;
+    border: 1px solid black;
+    /* float:left; */
+    
+
+
+
+    
+
+}
+.head{
+    width: 1020px;
+    height: 170px;
+    border-bottom: 5px solid black;
+    display:flex;
+    background-image: url(img/anh-nhom6.jpg);
+    /* padding:10px ; */
+
+
+}
+
+
+.title-head{
+    width: 1000px;
+    height: 30px;
+    display:flex;
+    justify-content:space-between;
+    margin-left:103px;
+    position: relative;
+    top: 34px; 
+
+
+}
+.title-head a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    background-color:#98a8c2a8;
+    border-radius:20px;
+    width:110px;
+    text-align:center;
+}
+.logo-head{
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top:10px ;
+}
+
+
+
+
+.content{
+    width: 1020px;
+    height: 680px;
+    display: flex;
+    background-color:rgb(113, 90, 90);
+
+}
+.img-class{
+    width: 1000px;
+    height: 1500px;
+    /* position:absolute; */
+}
+.introduce{
+    /* text-align: center; */
+    width: 500px;
+    height: 680px;
+    background-color:transparent;
+    /* margin-top: 20px; */
+}
+
+.introduce h2{
+
+    padding: 20px 200px 20px 10px;
+    
+}
+.member{
+    width: 500px;
+    height: 204px;
+    float:left;
+    display:flex;
+
+}
+.member img{
+    width: 150px;
+    height:150px;
+    border-radius: 50% ;
+    /* border:1px solid red; */
+    padding: 20px;
+}
+.content-member{
+    width: 250px;
+    height: 150px;
+    margin:30px 0px 0px 30px;
+}
+.content-member h3{
+    margin-bottom: 20px;
+}
+.group-picture {
+    margin-left:20px;   
+
+}
+.group-picture h2{
+    margin-top:21px;
+}
+.group-picture h3{
+    margin:20px 0px ; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    text-decoration:underline 2px; 
+    
+}
+
+.group-picture img{
+    width: 500px;
+    height: 400px;
+    margin-top:25px;
+    border-radius:20% ;
+    /* padding:20px; */
+    /* margin-left:20px;    */
+}
+.group-picture i{
+    margin-right:6px;
+}
+
+
+
+
+.content-member i{
+    font-size: 11px;
+    color:yellow;
+}
+.head i{
+    font-size: 20px;
+    margin: 5px 30px;
+    color:black;
+
+}
+
+
+
+
+.head a:hover{
+    color: black;
+}
+.head input{
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    position:relative;
+    bottom: 5px;
+    border-radius: 10px;
+
+
+}
+
+.member-name{
+    color:black;
+    text-decoration: none;
+}
+.member-name:hover{
+    color:white;
+}
